@@ -36,8 +36,8 @@ List<User> users = [
   ),
   User(
     id: 4,
-    name: 'Jim',
+    name: 'Tim',
     image: 'assets/profile4.jpeg',
-    verified: false,
+    verified: true,
   ),
 ];
