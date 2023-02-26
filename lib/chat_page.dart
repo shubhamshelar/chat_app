@@ -5,7 +5,7 @@ import 'package:chat_app/widgets/scroll_card.dart';
 import 'package:chat_app/widgets/search_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-//import 'package:eva_icons_flutter/eva_icons_flutter.dart';
+import 'package:chat_app/widgets/bottombar.dart';
 
 import 'models/message.dart';
 import 'models/user.dart';
@@ -78,33 +78,9 @@ class ChatPage extends StatelessWidget {
             left: -5,
             right: -5,
             bottom: -6,
-            child: Icons(),
+            child: IconsBar(),
           )
         ],
-      ),
-    );
-  }
-}
-
-class Icons extends StatelessWidget {
-  List<Widget> icons = [];
-
-  @override
-  Widget build(BuildContext context) {
-    for (int i = 0; i < 4; i++) {
-      icons.add(Image.asset('assets/logo$i.png'));
-    }
-    return Card(
-      shadowColor: Colors.grey,
-      elevation: 10,
-      child: Container(
-        height: 70,
-        width: double.infinity,
-        decoration: BoxDecoration(
-          color: Colors.white,
-        ),
-        child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: icons),
       ),
     );
   }
