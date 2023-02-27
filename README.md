@@ -1,6 +1,6 @@
 # chat_app
 
-A new Flutter project.
+![WhatsApp Image 2023-02-27 at 5 00 46 AM](https://user-images.githubusercontent.com/85821105/221444561-918b0eea-2a06-4d8c-a6a3-db7c402b008d.jpeg)
 
 ## Getting Started
 
